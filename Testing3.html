@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 20% auto 10%;
+            grid-template-columns: 100%;
+            grid-template-areas:
+            "header"
+            "content"
+            "footer"
+            
+        }
+        .head{
+        background-color: darkblue;
+        grid-area: header;
+        h1{
+            text-align: center;
+        }
+        hr{
+           
+            
+            border: 7px solid black;
+            border-radius:  5px;
+            font-family:'Courier New', Courier, monospace;
+            font-size: 25pt;
+        }
+     
+        }
+        .content{
+        background-color: aquamarine;
+        grid-area: content;
+        .card{
+            background-color: whitesmoke;
+            width:20%;
+            transition: background-color 1s linear 0.2s ease-in;
+    
+        }
+
+        }
+        img{
+                width:100%;
+                
+            }
+            .card:hover{
+                background-color:gray;
+                color:black;
+                cursor:default;
+                transition:ease-in-out 1s;
+            box-shadow: 10px 10px 10px;
+            }
+            .card2{
+                
+            background-color: whitesmoke;
+            width:20%;
+            transition: background-color 1s linear 0.2s ease-in;
+            
+        }
+        img{
+                width:100%;
+                
+            }
+            .card2:hover{
+                background-color:gray;
+                color:black;
+                cursor:default;
+                transition:ease-in 1s;
+            box-shadow: 10px 10px 10px;
+            }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20pt;
+            text-align: center;
+        }
+        hr{
+            border: 2px solid black;
+            border-radius:  3px;  
+        }
+        
+        
+        .footer{
+        background-color: navy;
+        grid-area: footer;
+        hr{
+            border: 2px solid black;
+            border-radius:  3px;
+        }
+      
+    }
+       
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="head"><h1>How to code with Html and Css to create websites</h1>
+        <hr></div>
+        
+        <div class="content">
+            <h1>Lessons</h1>
+            <hr>
+            <div class="card">
+                
+                <div class="card-img">
+                <img src="https://static3.makeuseofimages.com/wordpress/wp-content/uploads/2010/10/HTML-Code-Examples-Featured.jpg"
+                
+                <div class="card-desc">
+                <h1>
+                    Section 1
+                </div>
+                </h1>
+                <h2>
+                    Introduction
+                </h2>
+                <p>
+                    In this chapter I will be giving a introduction to this website
+                    and what it is going to be about. I will present how the website
+                    is going to help you learn Html and Css, what Html and css are, 
+                    and how to get started.
+                </p>
+                </div>
+                <div class="card2">
+                    <div class="card2-img">
+                    <img src="https://i.ytimg.com/vi/RGZCOUqcilk/maxresdefault.jpg"
+                    
+                    <div class="card-desc">
+                    <h1>
+                        Section 2
+                    </div>
+                    </h1>
+                    <h2>
+                        The basics
+                    </h2>
+                    <p>
+                        In this section the focus is to learn the
+                        basics of both html and css. This is is one of 
+                        the harder lessons so  make sure you pay atention
+                        so you are not left behind. In this chapter you will 
+                        learn rules, tags, and functions that apply with both
+                        html and css so you can fully grasp the basics of these
+                        languages..
+                    </p>
+                    </div>
+            </div>
+        
+        
+        <div class ="footer"> <hr>footer</div>
+        </div>
+
+
+</body>
+</html>

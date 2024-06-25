@@ -1,0 +1,472 @@
+<!doctype html>
+
+
+<html lang="en">
+    <head>
+
+
+<title>P92 IT Solutions - HTML, CSS and JavaScript</title>
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HTML, CSS and JavaScript are the fundamentals of every piece of web-based development. Everything you see in your browser window is using these technologies. HTML (Hypertext Mark-up Language) describes the structure of the web page, using tags. It has tags for links, images, tables, videos, etc. Using combinations of these tags it makes it possible to build a full web page. Search engines crawlers analyse the HTML source of the web page to make it possible for you to “google” for the things you would like to see. CSS (Cascading Style Sheets) is a language used to describe how the elements we have built up using the HTML language above will look like in the browser window. It can set the size, the alignment or the colour of an element, and it can specify what it should look like in different resolutions. In the last couple of years CSS has received some nice upgrades (for example, LESS and SASS) making it more configurable. Every web developer will know the basics of the CSS. However, CSS is easy to learn but hard to master. Once we have the elements of our webpage described by HTML and smartened by CSS, we use JavaScript to make them 'work'. JavaScript is a programming language running on the ‘client side’ (in a browser) and is used to add logic and behaviour to our page elements. From simple mouseovers, it can implement significant logic to pages such as complete wizards, or even desktop-like applications running in browser windows. HTML, CSS and JavaScript are the cornerstones of web development.">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="/webfiles/1640457769382/images/favicon-144.png">
+<meta name="msapplication-config" content="/webfiles/1640457769382/images/browserconfig.xml">
+
+<!-- Favicon -->
+<link rel="icon" sizes="16x16 32x32 64x64" href="/webfiles/1640457769382/images/favicon.ico ">
+<link rel="icon" type="image/png" sizes="196x196" href="/webfiles/1640457769382/images/favicon-192.png">
+<link rel="icon" type="image/png" sizes="160x160" href="/webfiles/1640457769382/images/favicon-160.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/webfiles/1640457769382/images/favicon-96.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/webfiles/1640457769382/images/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/webfiles/1640457769382/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/webfiles/1640457769382/images/favicon-16.png">
+<link rel="apple-touch-icon" href="/webfiles/1640457769382/images/favicon-57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/webfiles/1640457769382/images/favicon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/webfiles/1640457769382/images/favicon-72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/webfiles/1640457769382/images/favicon-144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/webfiles/1640457769382/images/favicon-60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/webfiles/1640457769382/images/favicon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/webfiles/1640457769382/images/favicon-76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/webfiles/1640457769382/images/favicon-152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/webfiles/1640457769382/images/favicon-180.png">
+
+<!-- Open Graph metadata -->
+<meta property="og:title" content="HTML, CSS and JavaScript"/>
+<meta property="og:description" content="HTML, CSS and JavaScript are the fundamentals of every piece of web-based development. Everything you see in your browser window is using these technologies. HTML (Hypertext Mark-up Language) describes the structure of the web page, using tags. It has tags for links, images, tables, videos, etc. Using combinations of these tags it makes it possible to build a full web page. Search engines crawlers analyse the HTML source of the web page to make it possible for you to “google” for the things you would like to see. CSS (Cascading Style Sheets) is a language used to describe how the elements we have built up using the HTML language above will look like in the browser window. It can set the size, the alignment or the colour of an element, and it can specify what it should look like in different resolutions. In the last couple of years CSS has received some nice upgrades (for example, LESS and SASS) making it more configurable. Every web developer will know the basics of the CSS. However, CSS is easy to learn but hard to master. Once we have the elements of our webpage described by HTML and smartened by CSS, we use JavaScript to make them 'work'. JavaScript is a programming language running on the ‘client side’ (in a browser) and is used to add logic and behaviour to our page elements. From simple mouseovers, it can implement significant logic to pages such as complete wizards, or even desktop-like applications running in browser windows. HTML, CSS and JavaScript are the cornerstones of web development."/>
+<meta property="og:url" content="http://p92.com/techdetails/html-css-and-javascript"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"/>
+<meta property="og:image:width" content="400"/>
+<meta property="og:image:height" content="400"/>
+
+<!-- CSS -->
+<link rel="stylesheet" href="/webfiles/1640457769382/css/bootstrap.css" type="text/css"/>
+<link rel="stylesheet" href="/webfiles/1640457769382/css/bootstrap-overrides.css" type="text/css"/>
+<link rel="stylesheet" href="/webfiles/1640457769382/css/base.css" type="text/css"/>
+<link rel="stylesheet" href="/webfiles/1640457769382/vendor_components/jquery-ui-dist/jquery-ui.min.css" type="text/css"/>
+<link rel="stylesheet" href="/webfiles/1640457769382/vendor_components/animate.css/animate.min.css" type="text/css"/>
+<link rel="stylesheet" href="/webfiles/1640457769382/vendor_components/components-font-awesome/css/all.min.css" type="text/css"/>
+<link rel="stylesheet" href="/webfiles/1640457769382/vendor_components/perfect-scrollbar/css/perfect-scrollbar.css" type="text/css"/>
+<link rel="stylesheet" href="/webfiles/1640457769382/vendor_components/cookieconsent/build/cookieconsent.min.css" type="text/css"/>
+
+<!-- Header javascript -->
+<script src="/webfiles/1640457769382/vendor_components/jquery/dist/jquery.min.js"></script>
+<script src="/webfiles/1640457769382/vendor_components/jquery.easing/jquery.easing.min.js"></script>
+<script src="/webfiles/1640457769382/vendor_components/npm-modernizr/modernizr.js"></script>
+<script src="/webfiles/1640457769382/vendor_components/respond.js/dest/respond.min.js"></script>
+        <link rel="stylesheet" href="/webfiles/1640457769382/css/detailspage.css"/>
+    </head>
+    <body class="p92">
+        <header class="section-header header-background-4">
+
+
+<div class="top-navbar">
+
+    <div>
+                <div>
+                    
+
+<script>localStorage.setItem("langElementId", "lilang01");</script>
+
+<div id="snackbar"></div>
+<div class="container-fluid">
+    <div class="top-navbar-left">
+        <!-- logo-->
+        <div id="logo-layout-area" class="layout-area">
+                <a id="p92logoheader" class="p92-logo" href="/" title="P92">
+                    <span class="p92-logo-image">
+                        <img id="p92logo" src="/binaries/content/gallery/p92website/p92_logo_new.png" alt="P92 logo"/>
+                    </span>
+                </a>
+        </div>
+        <div id="social-icons-layout-area" class="layout-area">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/P92ITS" title="Facebook"><span class="icon-custom ic-facebook-white"></span></a>
+                <a href="https://twitter.com/P92UK" title="Twitter"><span class="icon-custom ic-twitter-white"></span></a>
+                <a href="https://www.linkedin.com/company/p92-it-solutions" title="LinkedIn"><span class="icon-custom ic-linkedin-white"></span></a>
+                <a class="search-button" role="button" style="cursor:pointer"><span class="icon-custom ic-search-white"></span></a>
+                <div class="module module-search">
+                    <form class="navbar-form" role="search" action="/searchresult" method="get">
+                        <div class="form-group">
+                            <label class="sr-only" for="search">Search</label>
+                            <input type="text" id="search" name="query" class="search-field form-control input-sm" placeholder="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div id="lang-selector-layout-area" class="layout-area">
+            <div class="language-selector">
+
+
+<ul class="language-list">
+    <li id="lilang01"><a href="/" title="English - United Kingdom">UK</a></li>
+    <li id="lilang04"><a href="http://p92.hu/" title="Magyar">HU</a></li>
+</ul>                    <span class="phone-contact"><a href="tel:+442077607643">+44 207 760 7643</a></span>
+            </div>
+        </div>
+        -->
+    </div>
+    <div class="top-navbar-right">
+        <div class="skew-menu">
+
+
+<ul>
+    <li class="nav-item"><a href="/">Home</a></li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <i class="fas fa-angle-down"></i></a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="/features">What we do</a>
+            <a class="dropdown-item" href="/mobileoverview">Mobile apps</a>
+            <a class="dropdown-item" href="/websiteoverview">Enterprise websites</a>
+        </div>
+    </li>
+    <li class="nav-item"><a href="/techoverview">Technologies</a></li>
+    <li class="nav-item"><a href="/successstories">Success stories</a></li>
+    <li class="nav-item"><a href="/team">Team</a></li>
+    <li class="nav-item"><a href="/blog">Blog</a></li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i class="fas fa-angle-down"></i></a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="/aboutdetails">About us</a>
+            <a class="dropdown-item" href="/aboutdetails/history">History</a>
+            <a class="dropdown-item" href="/binaries/content/assets/brochure/p92-brochure.pdf">Download brochure</a>
+            <a class="dropdown-item" href="/aboutdetails/privacy--cookies">Privacy & Cookies</a>
+        </div>
+    </li>
+    <li class="nav-item"><a href="/careers">Careers</a></li>
+    <li class="nav-item"><a href="/contact">Contact</a></li>
+</ul>
+        </div>
+        <div id="navigation-layout-area" class="layout-area">
+            <div class="navigation">
+                <div class="toggle-nav-button">
+                    <button type="button" class="toggle-nav collapsed">
+                        <span class="icon-custom ic-hamburger-white"></span>
+                    </button>
+                </div>
+                <div class="slide-menu" data-width="310">
+                    <div class="body">
+
+
+<ul id="burgerMenuUl" class="site-menu">
+	<li id="li0"><a href="/">Home</a></li>
+    <li id="li26"><a href="/features">What we do</a></li>
+    <li id="menuLiMobileApps" class="drop-down">
+        <a id="menuA0" role="button" style="cursor:pointer" aria-expanded="false">Mobile apps <i class="arrow fa fa-angle-down" aria-hidden="true"></i></a>
+        <ul id="menuUlMobileApps">
+            <li id="li1"><a href="/mobileoverview">Mobile apps overview</a></li>
+            <li id="li2"><a href="/mobiledetails/visioning---app-or-responsive-website">Visioning - App or Responsive Website</a></li>
+            <li id="li3"><a href="/mobiledetails/customer-and-user-experience">Customer & User experience</a></li>
+            <li id="li4"><a href="/mobiledetails/prototyping--minimum-viable-product">Prototype & Minimum Viable Product</a></li>
+            <li id="li5"><a href="/mobiledetails/mobile-agile-development-lifecycle">Mobile Agile Development Lifecycle</a></li>
+        </ul>
+    </li>
+    <li id="menuLiEnterprisewebsites" class="drop-down">
+        <a id="menuA1" role="button" style="cursor:pointer" aria-expanded="false">Enterprise websites <i class="arrow fa fa-angle-down" aria-hidden="true"></i></a>
+        <ul id="menuUlEnterpriseWebsites">
+            <li id="li6"><a href="/websiteoverview">Website overview</a></li>
+            <li id="li7"><a href="/websitedetails/website-project-definition">Website definition</a></li>
+            <li id="li8"><a href="/websitedetails/website-design">Website design</a></li>
+            <li id="li9"><a href="/websitedetails/agile-website-build">Website build</a></li>
+            <li id="li10"><a href="/websitedetails/rapid-website-deployment">Website deployment</a></li>
+        </ul>
+    </li>
+    <li id="li25"><a href="/techoverview">Technologies</a></li>
+    <li id="li16"><a href="/successstories">Success stories</a></li>
+    <li id="li17"><a href="/team">Team</a></li>
+    <li id="li18"><a href="/blog">Blog</a></li>
+    <li id="menuLiAbout" class="drop-down">
+        <a id="menuA2" role="button" style="cursor:pointer" aria-expanded="false">About <i class="arrow fa fa-angle-down" aria-hidden="true"></i></a>
+        <ul id="menuUlAbout">
+            <li id="li19"><a href="/aboutdetails">About us</a></li>
+            <li id="li20"><a href="/aboutdetails/history">History</a></li>
+            <li id="li-brochure"><a href="/binaries/content/assets/brochure/p92-brochure.pdf">Download brochure</a></li>
+            <li id="li22"><a href="/aboutdetails/privacy--cookies">Privacy & Cookies</a></li>
+        </ul>
+    </li>
+    <li id="li21"><a href="/careers">Careers</a></li>
+    <li id="li23"><a href="/contact">Contact</a></li>
+</ul>                    </div>
+                    <div class="header">
+                        <button type="button" class="close-nav" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+    </div>
+</div>        </header>
+        <header class="section-breadcrumb">
+
+
+<div class="container">
+
+    <div>
+                <div>
+                    
+
+    <div class="breadcrumbs-module">
+        <ul id="overviewBreadcrumbUl" class="breadcrumb">
+                <li><a href="/">Home</a></li>
+                <li><a href="/techoverview">Technologies</a></li>
+        </ul>
+    </div>
+
+                </div>
+    </div>
+</div>        </header>
+        <section class="section-content">
+
+
+<div class="sub-section bg-solid-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8">
+                <div class="layout-area">
+                    <div id="productdetails" class="products-details">
+                            <img src="/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png" class="lead-image" alt="HTML, CSS and JavaScript"/>
+                        <h2>HTML, CSS and JavaScript</h2>
+                        <div>
+<p style="margin-left:0cm; margin-right:0cm"><strong>HTML, CSS and JavaScript</strong> are the fundamentals of every piece of web-based development. Everything you see in your browser window is using these technologies.</p>
+
+<p style="margin-left:0cm; margin-right:0cm"><strong>HTML</strong> (Hypertext Mark-up Language) describes the structure of the web page, using tags. It has tags for links, images, tables, videos, etc. Using combinations of these tags it makes it possible to build a full web page. Search engines crawlers analyse the HTML source of the web page to make it possible for you to “google” for the things you would like to see.</p>
+
+<p style="margin-left:0cm; margin-right:0cm"><strong>CSS </strong>(Cascading Style Sheets) is a language used to describe how the elements we have built up using the HTML language above will look like in the browser window. It can set the size, the alignment or the colour of an element, and it can specify what it should look like in different resolutions. In the last couple of years CSS has received some nice upgrades (for example, LESS and SASS) making it more configurable. Every web developer will know the basics of the CSS. However, CSS is easy to learn but hard to master.</p>
+
+<p style="margin-left:0cm; margin-right:0cm">Once we have the elements of our webpage described by HTML and smartened by CSS, we use <strong>JavaScript </strong>to make them 'work'. <strong>JavaScript</strong> is a programming language running on the ‘client side’ (in a browser) and is used to add logic and behaviour to our page elements. From simple mouseovers, it can implement significant logic to pages such as complete wizards, or even desktop-like applications running in browser windows.</p>
+
+<p style="margin-left:0cm; margin-right:0cm"><strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong> are the cornerstones of web development.</p>
+
+<p style="margin-left:0cm; margin-right:0cm">In short, every single web project we work on at P92 uses HTML, CSS and JavaScript and we anticipate no change to that in the foreseeable future.</p>
+
+<p style="margin-left:0cm; margin-right:0cm">On the Barclays Premier Rewards website, we use the same <strong>HTML</strong> mark-up for both the desktop and mobile versions and then use <strong>CSS</strong> and <strong>JavaScript</strong> to make it fit and work for different devices.</p>
+
+<p style="margin-left:0cm; margin-right:0cm; text-align:center"><img src="/binaries/content/gallery/p92website/technologies/success+stories/barclays.png" alt="barclays" /></p>                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-lg-offset-1 col-md-4">
+                <div id="content-right-layout-area" class="layout-area">
+                    <div class="products-list-compact">
+
+    <div>
+                <div>
+                    
+
+    <h3>Technologies</h3>
+
+                </div>
+                <div>
+                    
+
+<ul class="row">
+        <li class="col-md-12 col-sm-6 col-xs-6 animated bounceIn">
+            <a href="/techdetails/devsecops" title="DevSecOps / DevOps" onclick="deselectMenuElement(); return true;">
+                <img alt="DevSecOps / DevOps" src="/binaries/content/gallery/p92website/technologies/devsecops-details.png"/>
+            </a>
+            <a href="/techdetails/devsecops" title="DevSecOps / DevOps" onclick="deselectMenuElement(); return true;">
+                <h4>DevSecOps / DevOps</h4>
+            </a>
+        </li>
+        <li class="col-md-12 col-sm-6 col-xs-6 animated bounceIn">
+            <a href="/techdetails/html-css-and-javascript" title="HTML, CSS and JavaScript" onclick="deselectMenuElement(); return true;">
+                <img alt="HTML, CSS and JavaScript" src="/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png"/>
+            </a>
+            <a href="/techdetails/html-css-and-javascript" title="HTML, CSS and JavaScript" onclick="deselectMenuElement(); return true;">
+                <h4>HTML, CSS and JavaScript</h4>
+            </a>
+        </li>
+        <li class="col-md-12 col-sm-6 col-xs-6 animated bounceIn">
+            <a href="/techdetails/android" title="Android" onclick="deselectMenuElement(); return true;">
+                <img alt="Android" src="/binaries/content/gallery/p92website/technologies/android-details.png"/>
+            </a>
+            <a href="/techdetails/android" title="Android" onclick="deselectMenuElement(); return true;">
+                <h4>Android</h4>
+            </a>
+        </li>
+        <li class="col-md-12 col-sm-6 col-xs-6 animated bounceIn">
+            <a href="/techdetails/php" title="PHP" onclick="deselectMenuElement(); return true;">
+                <img alt="PHP" src="/binaries/content/gallery/p92website/technologies/php-details.png"/>
+            </a>
+            <a href="/techdetails/php" title="PHP" onclick="deselectMenuElement(); return true;">
+                <h4>PHP</h4>
+            </a>
+        </li>
+        <li class="col-md-12 col-sm-6 col-xs-6 animated bounceIn">
+            <a href="/techdetails/wordpress" title="Wordpress" onclick="deselectMenuElement(); return true;">
+                <img alt="Wordpress" src="/binaries/content/gallery/p92website/technologies/wordpress-details.png"/>
+            </a>
+            <a href="/techdetails/wordpress" title="Wordpress" onclick="deselectMenuElement(); return true;">
+                <h4>Wordpress</h4>
+            </a>
+        </li>
+</ul>
+
+                </div>
+    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a class="scroll-to-top" href="#" title="Scroll to top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>        </section>
+        <footer class="section-footer">
+
+
+<div class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div id="footer-layout-area-1" class="layout-area">
+
+    <div>
+                <div>
+                    
+
+    <a id="p92logofooter" class="p92-logo" href="/" title="P92 IT Solutions">
+        <span class="p92-logo-text">
+            <span class="p92com">P92.com</span>
+            <span class="it-solutions">IT Solutions</span>
+        </span>
+    </a>
+    <div class="footer-company-info">
+        <p>We are a web, mobile, and cloud infrastructure and software development company based in Budapest, Hungary; Szeged, Hungary; London, UK and Cebu, Philippines. Our Developer Team-as-a-Service programme can provide ready-made development teams for rapid development of your new projects or programmes.</p>
+        <p>We work in Java, PHP, Ruby, .Net core, Node.js, MEAN, Angular, Flutter, iOS and Android languages. We are also do great things with the following frameworks: Mautic, Drupal, Magento, DNN, Orchard, Ruby-on-Rails, Google Firebase &amp; Wordpress. We have a strong DevOps capability and Cloud Management Skills across AWS, Azure &amp; Google Cloud.</p>
+        <table class="contact-table" style="font-size: 15px">
+            <tr>
+                <td><span class="icon-custom ic-phone-blue"></span></td>
+                <td>
+                    <a href="tel:+442077607643">+44 207 760 7643</a> <br>
+                    <a href="tel:+3614534100">+36 1 453 4100</a>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="icon-custom ic-envelope-blue"></span></td>
+                <td>
+                    <a id="footerEmail">
+                        <script>
+                            $(function () {
+                                generateEmail("footerEmail", "co.uk", "p92", "contact");
+                            });
+                        </script>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+                </div>
+    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div id="footer-layout-area-2" class="layout-area">
+
+    <div>
+                <div>
+                    
+
+<ul class="footer-quick-links hidden-xs">
+    <li id="lifooter1"><a href="/">Home</a></li>
+    <li id="lifooter2"><a href="/mobileoverview">Mobile apps</a></li>
+    <li id="lifooter3"><a href="/websiteoverview">Enterprise apps</a></li>
+    <li id="lifooter4"><a href="/techoverview">Technologies</a></li>
+    <li id="lifooter5"><a href="/successstories">Success stories</a></li>
+    <li id="lifooter6"><a href="/team">Team</a></li>
+    <li id="lifooter7"><a href="/blog">Blog</a></li>
+    <li id="lifooter8"><a href="/aboutdetails">About us</a></li>
+    <li id="lifooter9"><a href="/careers">Career</a></li>
+    <li id="lifooter10"><a href="/contact">Contact us</a></li>
+</ul>
+<img class="footer-menu-logo" src="/binaries/content/gallery/p92website/footer/ima-member-badge-2023.png" alt="IMA-Europe">
+                </div>
+    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 hidden-sm hidden-xs">
+                <div id="footer-layout-area-3" class="layout-area">
+                    <div class="twitter-feed">
+                        <h2>Twitter</h2>
+                        <a class="twitter-timeline"
+                            data-theme="dark"
+                            data-chrome="noheader noborders noscrollbar transparent"
+                            data-tweet-limit="1"
+                            data-link-color="#4793ee"
+                            href="https://twitter.com/P92UK">
+                            Tweets by @P92
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 hidden-sm hidden-xs">
+                <div id="footer-layout-area-4" class="layout-area">
+                    <div class="facebook-feed">
+                        <h2>Facebook</h2>
+                        <div
+                            class="fb-page"
+                            data-href="https://www.facebook.com/P92ITS"
+                            data-tabs="timeline"
+                            data-width="250"
+                            data-height="455"
+                            data-small-header="true"
+                            data-adapt-container-width="true"
+                            data-hide-cover="true"
+                            data-show-facepile="false">
+                                <blockquote cite="https://www.facebook.com/P92ITS" class="fb-xfbml-parse-ignore">
+                                    <a href="https://www.facebook.com/P92ITS">P92</a>
+                                </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bottom-footer">
+
+    <div>
+                <div>
+                    
+
+<div class="container">
+    <div id="bottom-footer-overwrite" class="layout-area">
+        <div style="float: left">Copyright &copy; 2024 P92 IT Solutions Ltd. All rights reserved.</div>
+        <div class="links">
+            <div>
+                <a id="footer-cookie-link" href="/aboutdetails/privacy--cookies">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+    </div>
+</div>        </footer>
+
+
+<script src="/webfiles/1640457769382/vendor_components/popper.js/dist/umd/popper.min.js"></script>
+<script src="/webfiles/1640457769382/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/webfiles/1640457769382/vendor_components/progressbar.js/dist/progressbar.min.js"></script>
+<script src="/webfiles/1640457769382/vendor_components/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+<script src="/webfiles/1640457769382/vendor_components/cookieconsent/build/cookieconsent.min.js"></script>
+<script src="/webfiles/1640457769382/js/base-layout-script.js"></script>
+<script src="/webfiles/1640457769382/js/app.js"></script>
+<script src="/webfiles/1640457769382/js/menu.js"></script>
+<script src="/webfiles/1640457769382/view/modules/navigation/view.js"></script>
+<script src="/webfiles/1640457769382/view/modules/search/view.js"></script>
+
+<script src="/webfiles/1640457769382/js/cookie-consent-settings.js"></script>
+<script src="/webfiles/1640457769382/js/google-analytics.js"></script>
+
+<script async src="//platform.twitter.com/widgets.js"></script>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0" nonce="ckxDcsnh"></script>
+    </body>
+</html>
