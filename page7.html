@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 20% auto 10%;
+            grid-template-columns: 75% auto;
+            grid-template-areas:
+            "header header"
+            "content sidebar"
+            "footer footer"
+        }
+
+        .header{
+            grid-area: header;
+            background-color: gray;
+        }
+        .content{
+            grid-area: content;
+            background-color: white;
+          
+        .container{
+            display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ text-align: center;
+ margin: 100px;
+ .starthere{
+    height: 100%;
+    width: 100%;
+ }
+        }
+       
+          
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: lightgray;
+            .nav{
+                padding: 10%;
+            }
+            .nav{
+          padding: 15%;
+            }
+            .nav:hover{
+                background-color:gray;
+                color:black;
+                cursor:default;
+                transition:ease-in 1s;
+            box-shadow: 10px 10px 10px;
+            }
+        }
+        .footer{
+            grid-area: footer;
+            background-color: gray;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h1>
+            Section 7 
+          
+            CSS cards and Margins 
+        </h1>
+        </div>
+        
+        <div class="content">
+            <h2>
+            Part One 
+        </h2>
+        <h3>
+            CSS cards 
+        </h3>
+            <div class="container">
+            <h3>
+     
+            What are CSS cards 
+        </h3>
+        <p>
+            CSS cards are cards made in CSS that visually make your website look cleaner in a box for, but they also help navigate by if you click on one it will transfer you to another web page. A great example of this are online shopping websites where each item is a CSS card that you click on to add to go to a description of that item. These can be used in many ways, but the main ways are for navigation and organization. 
+        </p>
+        <img src="Screenshot 2024-06-24 180741.png">
+            <h3>
+ 
+        </h3>
+        </div>
+        <div class="container">
+        <h3>
+            Html 
+        </h3>
+        <p>
+            Again, all you must do in html to create a CSS are write div class=”card”> and then write your information in the middle. Which is just more of the same. 
+        </p>
+        <img src="Screenshot 2024-06-24 180852.png">
+            <h3>
+            CSS 
+        </h3>
+        <p>
+        CSS is also very easy to do where all you have to do is write in the style tag .card. Then you are going to want to right down the width you want your card to be. Then you are going to want to write image in the .card and write 100% which will make your image as big as it can be to fit in your card. Yes it is really that easy but adding fancy stuff like animations takes time so make sure to play around with CSS cards. 
+    </p>
+</div>
+        <h2>
+            Part two 
+        </h2>
+      
+        <h3>
+            Margins, border and padding 
+        </h3>
+        <div class="container">
+        <h3>
+            What are margins, border, and padding 
+        </h3>
+          
+            
+        <p>  
+    Margins are the space around items. For example a 10px margin would spread two paragraphs 10px away from each other. Borders are just outlines of your content in a box format. And padding is the space between your content and a border. 
+</p>   
+<img src="Update css margin vs padding-5 .webp">
+    <h3>
+            How do you add margins, borders, and padding 
+        </h3>
+        <p>
+        These are also very easy in which all you have to do is write margin, border, or padding to the style tag and in which item you want it to apply to and then just write the distance in px measurements. 
+    </p>   
+    </div>
+        <h4>
+         
+            This is the end of this chapter about Margins and CSS cards. I know this section is a little confusing but it takes time. But when you are ready go to the next section. 
+    
+        </h4>
+        </div>
+        
+        <div class="sidebar">
+        <div id="home page" class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/index.html" target = "_blank">FrontPage</a></li>
+        </ul>
+    </div>
+        <div id="section 1" class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/page1.html" target = "_blank">section 1</a></li>
+        </ul>
+    </div>
+        
+        <div id="section 2"class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/page2.html" target = "_blank">section 2</a></li>
+        </ul>
+    </div>
+        <div id="section 3"class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/Page3.html" target = "_blank">section 3</a></li>
+        </ul>
+    </div>
+    <div id="section 4"class="nav"> <ul>
+        <li><a href="http://127.0.0.1:5500/page4.html" target = "_blank">section 4</a></li>
+    </ul>
+</div>
+<div id="section 5"class="nav"> <ul>
+    <li><a href="http://127.0.0.1:5500/page5.html" target = "_blank">section 5</a></li>
+</ul>
+</div>
+<div id="section 6"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page6.html" target = "_blank">section 6</a></li>
+</ul>
+</div>
+<div id="section 7"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page7.html" target = "_blank">section 7</a></li>
+</ul>
+</div>
+<div id="section 8"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page8.html" target = "_blank">section 8</a></li>
+</ul>
+</div>
+<div id="section 9"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page9.html" target = "_blank">section 9</a></li>
+</ul>
+</div><div id="section 10"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page10.html" target = "_blank">section 10</a></li>
+</ul>
+</div>
+</div>
+        <div class ="footer">footer</div>
+        </div>
+</body>
+</html>

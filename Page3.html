@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 20% auto 10%;
+            grid-template-columns: 75% auto;
+            grid-template-areas:
+            "header header"
+            "content sidebar"
+            "footer footer"
+        }
+        .header{
+            grid-area: header;
+            background-color: gray;
+        }
+        .content{
+            grid-area: content;
+            background-color: white;
+          
+        .container{
+            display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ text-align: center;
+ margin: 100px;
+ .starthere{
+    height: 100%;
+    width: 100%;
+ }
+        }
+       
+          
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: lightgray;
+            .nav{
+                padding: 10%;
+            }
+            .nav{
+          padding: 15%;
+            }
+            .nav:hover{
+                background-color:gray;
+                color:black;
+                cursor:default;
+                transition:ease-in 1s;
+            box-shadow: 10px 10px 10px;
+            }
+        }
+        .footer{
+            grid-area: footer;
+            background-color: gray;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h1>CSS styling </h1>
+        </div>
+        
+        <div class="content">
+            Section 3 
+
+
+
+<h2>Part 1 </h2>
+<div class="container">
+<h3>How do you style a website using CSS? </h3>
+
+The main use of CSS is to style and improve the visuals of your website. In this chapter I am going to be going over the basics like colours ,text aligning, and others but later on CSS is going to bet a lot more versatile and will get a little confusing so make sure you properly understand this because later on it will greatly help you. CSS is a extension to html so to style with it is very similar to the basics of html and just adds on to those. CSS also uses tags so make sure you don’t mix them up by using the cheat sheet in this website or use your own. 
+
+</div>
+
+<h2>Part 2 </h2>
+<div class="container">
+<h3>The basics of CSS </h3>
+
+As I said before CSS is a EXTENSION to html so the rules and functions directly tie into the html code so before you try to just start using CSS. You should make sure you fully understand the basics of html that had been taught in section 2. 
+<ul>
+    <li><a href="http://127.0.0.1:5500/page2.html" target = "_blank">section 2</a></li>
+</ul>
+<h3>The style tags </h3>
+
+Before we even start using CSS we have to introduce a new tag from html. This tag is the style tag. The style tag is a html tag which is the main way to input CSS onto your HTML code. The way you implement the style tag is by using the style opening tag style, putting your code into the tag for it to function, and then the style closing tag </style>. 
+
+<img src="Screenshot 2024-06-18 170857.png">
+
+<h3>Colours </h3>
+
+Colours in CSS are actually one of the most confusing parts to learn in CSS because they are the first things you learn and also have so many different functions. Background-color, color commands, text-color, and so much more which makes it quite a pain to learn, in this chapter all I am going to teach are these three but there are more so feel free to explore in the cheat sheet or in later chapters. 
+
+<img src="360_F_231119940_P6c6oC6yhnT7FGOfuzudyk9wnp1N1UdH.jpg">
+
+<h3>Colour commands </h3>
+
+Colours in CSS are very simple and are quite easy to learn. To implement a colour to a command all you have to do is write the color name. So, for example, if I wanted my text to be blue then all I would have to do is type: text-color: blue; But you can also use the specific code name for that colour so you can get the exact colour you want. All you have to do to find a name for a colour in html and CSS is to go into your browser and type “colour-name CSS defining code.” 
+<img src="HTML-Colors-.png">
+<h3>Background-color </h3>
+
+The background color command is usually placed inside the style tag and inside the body subsection in the style tag. The background color command is commonly used to give color to the base of your web page. But it can also be used to give a color to a tag. For example, you can use background color to change the color of a your webpages base color. 
+<img src="Screenshot 2024-06-18 172516.png">
+<h3>Text colour </h3>
+
+The text colour command is a piece of code that is put into the style tag for which tag you want to make a different colour on your web page. The text colour command is used by picking a specific colour and then coding to have your text be that colour. For example, if you want all of your h1 tags to be blue you would code: h1{colour: blue;} and then all of your h1 tags in your web page would be command to have blue text. 
+<img src="Screenshot 2024-06-18 172813.png">
+</div>
+<div class="container">
+<h3>What is CSS used for? </h3>
+
+The main use for CSS is to expand on a html element. CSS is not intended to be by itself. The main use for CSS is to go off a html element and had visual assistance to that element. So, for CSS the main way to add it to html is by using the style tag so make sure you are still using it like how I described how to use it in the colour section. Now I am going to be teaching a text alignment, fonts, font styles, and font sizes. 
+</div>
+<div class="container">
+<h3>Text alignment </h3>
+
+Text alignment is one of the easier CSS command with all you have to do to set it up is type in you text tag in to the style tag. Ex: p{}. And the and in the middle of those brackets: text-align center; this will make so your text will be in the center of your web page but there are many more alignments so feel free to explore. 
+<img src="Screenshot 2024-06-18 173049.png">
+<h3>Font </h3>
+
+Fonts in CSS are also very easy with the same formula of writing the text tag into the style tag and then writing the command in the brackets and this time you are going to want to write “font-family:(ex: arial);” to make each piece of writing under that tag the font you selected it to be. 
+<img src="Screenshot 2024-06-18 174204.png">
+<h3>Font sizing </h3>
+
+
+Font sizing in CSS is also the same as the font tag but instead of writing “font-family:;” you have to write font-size:_pt or_px; to determine the size you wany each text using that tag. 
+<img src="Screenshot 2024-06-18 174424.png">
+
+
+<h3>Font styling</h3>
+
+Font styling is also has the exact same formula and the reason I am saying this is so you don’t forget because every little thing in coding matters and one mistake can ruin a project until it is fixed. So all you have to do for font styling is write font-weight, font-style, or font-variant for what you want to do. Font variant does things like all lowercase letters with the command “small caps”. Font weight does things like making your writing bold with the tag “bold”.  And lastly. Font style does many things like making you text italic with the command “italic”. 
+<img src="Screenshot 2024-06-18 180300.png">
+</div>
+<h3>Thank you for reading or listening to this section about The basics of CSS. Like I always say Make sure you understand the material before proceeding. But if you think you have a grasp then proceed to section 4.</h3>
+
+
+        </div>
+        <div class="sidebar">
+        <div id="home page" class="nav">  <ul>
+            <li><a href="http://127.0.0.1:5500/index.html" target = "_blank">FrontPage</a></li>
+        </ul>
+        </div>
+            <div id="section 1" class="nav"> <ul>
+                <li><a href="http://127.0.0.1:5500/page1.html" target = "_blank">section 1</a></li>
+            </ul>
+        </div>
+            
+            <div id="section 2"class="nav"> <ul>
+                <li><a href="http://127.0.0.1:5500/page2.html" target = "_blank">section 2</a></li>
+            </ul>
+        </div>
+            <div id="section 3"class="nav"> <ul>
+                <li><a href="http://127.0.0.1:5500/Page3.html" target = "_blank">section 3</a></li>
+            </ul>
+        </div>
+        <div id="section 4"class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/page4.html" target = "_blank">section 4</a></li>
+        </ul>
+    </div>
+    <div id="section 5"class="nav"> <ul>
+        <li><a href="http://127.0.0.1:5500/page5.html" target = "_blank">section 5</a></li>
+    </ul>
+</div>
+<div id="section 6"class="nav"> <ul>
+    <li><a href="http://127.0.0.1:5500/page6.html" target = "_blank">section 6</a></li>
+</ul>
+</div>
+<div id="section 7"class="nav"> <ul>
+    <li><a href="http://127.0.0.1:5500/page7.html" target = "_blank">section 7</a></li>
+</ul>
+</div>
+<div id="section 8"class="nav"> <ul>
+    <li><a href="http://127.0.0.1:5500/page8.html" target = "_blank">section 8</a></li>
+</ul>
+</div>
+<div id="section 9"class="nav"> <ul>
+    <li><a href="http://127.0.0.1:5500/page9.html" target = "_blank">section 9</a></li>
+</ul>
+</div><div id="section 10"class="nav"> <ul>
+    <li><a href="http://127.0.0.1:5500/page10.html" target = "_blank">section 10</a></li>
+</ul>
+</div>
+</div>
+        <div class ="footer">footer</div>
+        </div>
+</body>
+</html>

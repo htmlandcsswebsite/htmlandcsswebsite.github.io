@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 20% auto 10%;
+            grid-template-columns: 75% auto;
+            grid-template-areas:
+            "header header"
+            "content sidebar"
+            "footer footer"
+        }
+
+        .header{
+            grid-area: header;
+            background-color: gray;
+        }
+        .content{
+            grid-area: content;
+            background-color: white;
+          
+        .container{
+            display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ text-align: center;
+ margin: 100px;
+ .starthere{
+    height: 100%;
+    width: 100%;
+ }
+        }
+       
+          
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: lightgray;
+            .nav{
+                padding: 10%;
+            }
+            .nav{
+          padding: 15%;
+            }
+            .nav:hover{
+                background-color:gray;
+                color:black;
+                cursor:default;
+                transition:ease-in 1s;
+            box-shadow: 10px 10px 10px;
+            }
+        }
+        .footer{
+            grid-area: footer;
+            background-color: gray;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h1>Section 4 </h1>
+            <h2>Formatting you web page </h2>
+        </div>
+        
+        <div class="content">
+            
+
+
+
+<h2>Part one: </h2>
+<div class="container">
+<h3>The div tag  </h3>
+<p>
+The div tag is the main tag to use when you want to format a website.
+ The reason for this is because the div tag is used to create columns 
+ and rows that are perfect to turn boring websites to ones with nice sectioning and on that I easy to go around like this one hopefully. 
+</p>
+<img src="Screenshot 2024-06-19 162634.png">
+<h3>
+How to use the div tag to section a website (HTML) 
+</h3>
+<p>
+The first thing you need to do to create a great format for a website is with html.
+ This section will be focusing on the sectioning I have made for my website, but this tutorial will be very self-explanatory so feel free to experiment. 
+ First what you have to do is type in the body tag: div class= “container or parent” div  This is the container for you div tags and will consist of all 
+ of your formatting so make sure you put your div tags for you formatting in this tag or else your code will not work. Now after you
+  have done that you have to do the exact same thing inside the opening and closing tag but instead of parent you want to write header, 
+  content, sidebar, and footer. This is the end of the html section be make sure you understand because if you move on to the CSS section 
+  and your html code is not correct then your code will not work. 
+</p>
+<img src="Screenshot 2024-06-19 163138.png">
+</div>
+<h2>Part two: </h2>
+
+<h3>The CSS coding </h3>
+<div class="container">
+    <h3>
+        Defining rows and columns
+    </h3>
+<p>
+This is where formatting becomes tricky so make sure you are paying attention.
+ Formatting in CSS is reliant on the head and style tags so make sure you put in code accordingly.
+  The first thing you are going to want to do is define your rows and columns by giving creating a coresponding .parent or .container section in the style tag
+and add:
+  grid-template-rows:;
+  grid-template-columns:;
+  to add your rows and columns into your code.
+  <p>
+    <img src="Screenshot 2024-06-19 164017.png">
+    <h3>
+        Grids and viewing size
+    </h3>
+<p>
+In one of these sections you are going to have to define the area of the page that you want the format to take up by writing “height: vh100;” and “display: grid;” 
+which will let you have your format take up 100% of the page and will let you have the section spread apart for how big your page will be. 
+</p>
+<img src="Screenshot 2024-06-19 164340.png">
+<h3>
+    Areas
+</h3>
+<p>
+After that you are going to want to write “grid template areas:”
+ in the parent section in the style tag which sections all of you div tags starting. 
+ After you do that you are going to want to write “header header”, “content sidebar”, and “footer footer”
+  in the grid template section. Then you are going to want to create 4 tags in the style tag for the 4 sections and write “grid area:” 
+  in each of them to link them to the grid template code an write the designated section in each of them. Ex: sidebar. = grid area: sidebar;
+   which will connect all of your code and will make all of your div tags sectioned for your website. 
+</p>
+
+<p>
+Lastly you can add the grid-template-row and grid-template-column codes into the parent code to change the length and width of you sections.
+ Ex: grid-template-row: 10% 30% 60%; for the 3 section tall format. 
+</p>
+
+</div>
+<h4>
+This is the end of this chapter of my website. I know this is one of the hardest parts so make sure you are familiar with what you are doing but if your are happy with your format then you can go on the next section. 
+</h4>
+
+        </div>
+        <div class="sidebar">
+        <div id="home page" class="nav">  <ul>
+            <li><a href="http://127.0.0.1:5500/index.html" target = "_blank">FrontPage</a></li>
+        </ul>
+    </div>
+        <div id="section 1" class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/page1.html" target = "_blank">section 1</a></li>
+        </ul>
+    </div>
+        
+        <div id="section 2"class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/page2.html" target = "_blank">section 2</a></li>
+        </ul>
+    </div>
+        <div id="section 3"class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/Page3.html" target = "_blank">section 3</a></li>
+        </ul>
+    </div>
+    <div id="section 4"class="nav"> <ul>
+        <li><a href="http://127.0.0.1:5500/page4.html" target = "_blank">section 4</a></li>
+    </ul>
+</div>
+<div id="section 5"class="nav"> <ul>
+    <li><a href="http://127.0.0.1:5500/page5.html" target = "_blank">section 5</a></li>
+</ul>
+</div>
+<div id="section 6"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page6.html" target = "_blank">section 6</a></li>
+</ul>
+</div>
+<div id="section 7"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page7.html" target = "_blank">section 7</a></li>
+</ul>
+</div>
+<div id="section 8"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page8.html" target = "_blank">section 8</a></li>
+</ul>
+</div>
+<div id="section 9"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page9.html" target = "_blank">section 9</a></li>
+</ul>
+</div><div id="section 10"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page10.html" target = "_blank">section 10</a></li>
+</ul>
+</div>
+</div>
+        <div class ="footer">footer</div>
+        </div>
+</body>
+</html>

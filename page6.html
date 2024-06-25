@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 20% auto 10%;
+            grid-template-columns: 75% auto;
+            grid-template-areas:
+            "header header"
+            "content sidebar"
+            "footer footer"
+        }
+
+        .header{
+            grid-area: header;
+            background-color: gray;
+        }
+        .content{
+            grid-area: content;
+            background-color: white;
+          
+        .container{
+            display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ text-align: center;
+ margin: 100px;
+ .starthere{
+    height: 100%;
+    width: 100%;
+ }
+        }
+       
+          
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: lightgray;
+            .nav{
+                padding: 10%;
+            }
+            .nav{
+          padding: 15%;
+            }
+            .nav:hover{
+                background-color:gray;
+                color:black;
+                cursor:default;
+                transition:ease-in 1s;
+            box-shadow: 10px 10px 10px;
+            }
+        }
+        .footer{
+            grid-area: footer;
+            background-color: gray;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+          <h1>  Section 6 
+
+            Creating a navigation bar and links 
+        </h1>
+        </div>
+        
+        <div class="content">
+
+<h2>
+Part 1: 
+</h2>
+<div class="container">
+<h3>
+Navigation bar set up: 
+</h3>
+<p>
+The navigation bar is more of the same that we have already done
+ where all you have to do is write in the div class of the section you
+ want your navigation bar to be in and then write div class nav and write what you
+  want that to navigate your web page to for how many things you want your navigation bar to have. 
+</p>
+<img src="Screenshot 2024-06-24 161618.png">
+  <h3>
+Setting up links 
+</h3>
+<p>
+Links are trickier in to code in html about are more confusing than hard to do. The first part 
+of a link in html are the ul tags. After you do that then you have to add li tags. Then you
+ have to write the a tag which is the tag that actually sends you to the link. After you
+  do all of that you are going to write herf=”link” target=”_blank” inside the opening a tag to create a link in html. 
+</p>
+<img src="Screenshot 2024-06-24 162140.png">
+<h3>
+Styling 
+</h3>
+<p>
+Styling your navigation bar is not really that advanced where all to can really do is align your items to 
+the left or right and if you want a horizontal navigation bar you add is display inline in the style tag for the li tag. 
+And if you want a vertical navigation bar you just keep it the same. But if you want to learn animations and transitions 
+then you should go to section 8 where I go in depth about animation in CSS. 
+</p>
+ <ul>
+    <li><a href="http://127.0.0.1:5500/page8.html" target = "_blank">section 8</a></li>
+    </ul>
+</div>
+<h4>
+Thank you for reading this short section of my website. This section is a little tricky to understand but 
+once you understand fully feel free to move on to the next section. 
+</h4>
+
+        </div>
+        <div class="sidebar">
+        <div id="home page" class="nav">  <ul>
+            <li><a href="http://127.0.0.1:5500/index.html" target = "_blank">FrontPage</a></li>
+        </ul>
+    </div>
+        <div id="section 1" class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/page1.html" target = "_blank">section 1</a></li>
+        </ul>
+    </div>
+        
+        <div id="section 2"class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/page2.html" target = "_blank">section 2</a></li>
+        </ul>
+    </div>
+        <div id="section 3"class="nav"> <ul>
+            <li><a href="http://127.0.0.1:5500/Page3.html" target = "_blank">section 3</a></li>
+        </ul>
+    </div>
+    <div id="section 4"class="nav"> <ul>
+        <li><a href="http://127.0.0.1:5500/page4.html" target = "_blank">section 4</a></li>
+    </ul>
+</div>
+<div id="section 5"class="nav"> <ul>
+    <li><a href="http://127.0.0.1:5500/page5.html" target = "_blank">section 5</a></li>
+</ul>
+</div>
+<div id="section 6"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page6.html" target = "_blank">section 6</a></li>
+</ul>
+</div>
+<div id="section 7"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page7.html" target = "_blank">section 7</a></li>
+</ul>
+</div>
+<div id="section 8"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page8.html" target = "_blank">section 8</a></li>
+</ul>
+</div>
+<div id="section 9"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page9.html" target = "_blank">section 9</a></li>
+</ul>
+</div><div id="section 10"class="nav"> <ul>
+<li><a href="http://127.0.0.1:5500/page10.html" target = "_blank">section 10</a></li>
+</ul>
+</div>
+</div>
+        <div class ="footer">footer</div>
+        </div>
+</body>
+</html>
